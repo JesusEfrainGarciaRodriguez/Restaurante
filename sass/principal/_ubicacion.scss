@@ -1,0 +1,35 @@
+.main .ubicacion .contenedor {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .titulo {
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .direccion {
+        font-size: 16px;
+        width: 50%;
+        .calle {
+            margin-bottom: 15px;
+        }
+    }
+    .horarios {
+        font-size: 16px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        h4 {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .entre-semana, .fin-semana {
+            width: 50%;
+        }
+    }
+}

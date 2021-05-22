@@ -1,0 +1,39 @@
+.main {
+    background: url("../img/bg-textura.png");
+    background-repeat: repeat;
+    .acerca-de .contenedor{
+        position: relative;
+        .foto {
+            width: 80%;
+            position: absolute;
+            top: -50px;
+            z-index: 0;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+            img {
+                width: 100%;
+                vertical-align: top;
+            }
+        }
+        article {
+            background: white;
+            padding: 40px;
+            width: 50%;
+            position: relative;
+            z-index: 1;
+            /* top: 500px; */
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+            float: right;
+            h3 {
+                font-size: 40px;
+                font-weight: 300;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

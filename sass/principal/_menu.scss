@@ -1,0 +1,52 @@
+.main .menu {
+    padding-top: 600px;
+    margin-bottom: 50px;
+    .titulo {
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .contenedor-menu, .contenedor-menu2 {
+        border: 1px solid black;
+        padding: 10px;
+        background: transparent;
+    }
+    .contenedor-menu .contenedor-menu2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        article {
+            width: 48%;
+            margin-bottom: 30px;
+            .categoria {
+                font-size: 25px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+            .platillo {
+                padding-bottom: 20px;
+                margin: 10px;
+                border-bottom: 4px dotted black;
+                .nombre {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                    float: left;
+                }
+                .precio {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                    float: right;
+                }
+                .descripcion {
+                    font-size: 16px;
+                    color: #676767;
+                    clear: both;
+                }
+            }
+        }
+    }
+}
