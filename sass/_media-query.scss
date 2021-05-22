@@ -35,6 +35,9 @@
 }
 
 @media screen and (max-width:600px) {
+    body {
+        font-size: 14px;
+    }
     header .contenedor .menu a {
         padding: 15px;
         width: 48%;

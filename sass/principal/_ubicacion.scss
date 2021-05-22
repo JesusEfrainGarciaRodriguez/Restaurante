@@ -4,21 +4,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     .titulo {
-        font-size: 40px;
+        font-size: 2.5em;
         font-weight: 300;
         margin-bottom: 20px;
         text-align: center;
         width: 100%;
     }
     .direccion {
-        font-size: 16px;
+        font-size: 1em;
         width: 50%;
         .calle {
             margin-bottom: 15px;
         }
     }
     .horarios {
-        font-size: 16px;
+        font-size: 1em;
         width: 50%;
         display: flex;
         flex-direction: row;
