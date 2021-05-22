@@ -43,14 +43,21 @@
         width: 48%;
         text-align: center;
     }
-    .main .ubicacion .contenedor {
-        flex-direction: column;
-        .direccion, .horarios {
-            width: 100%;
+    .main {
+        .ubicacion .contenedor {
+            flex-direction: column;
+            .direccion, .horarios {
+                width: 100%;
+            }
+            .direccion {
+                margin-bottom: 20px;
+                text-align: center;
+            }
         }
-        .direccion {
-            margin-bottom: 20px;
-            text-align: center;
+        .galeria .foto img {
+            opacity: 1;
         }
     }
+    
+    
 }
