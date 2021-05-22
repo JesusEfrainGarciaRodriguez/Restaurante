@@ -286,4 +286,50 @@ header .contenedor .texto h3 {
 
 .main .mapa iframe {
   width: 100%;
+  max-height: 600px;
+}
+
+footer {
+  background: #000;
+  padding: 10px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 800px) {
+  header .contenedor .menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .acerca-de .contenedor .foto {
+    width: 100%;
+    position: relative;
+  }
+  .main .acerca-de .contenedor article {
+    width: 100%;
+    position: relative;
+    top: -50px;
+  }
+  .main .menu {
+    padding-top: 20px;
+  }
+  .main .menu .foto {
+    width: 100%;
+    position: relative;
+  }
+  .main .menu .contenedor-menu .contenedor-menu2 article {
+    width: 100%;
+  }
+  .main .galeria .foto {
+    width: 50%;
+  }
+  .main .mapa {
+    width: 80%;
+    margin: auto;
+  }
 }
